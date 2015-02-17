@@ -3,6 +3,7 @@ Pod::Spec.new do |spec|
   spec.version               = '1.0.0'
   spec.summary               = 'Basic Yelp client'
   spec.homepage              = 'https://github.com/codepath/ios_yelp'
+  spec.author                = { 'CodePath' => 'dev@codepath.com' }
   spec.source                = { :git => 'git@github.com:pivotal-metromile/ios_yelp.git', :tag => spec.version.to_s }
   spec.requires_arc          = true
   spec.platform              = :ios
