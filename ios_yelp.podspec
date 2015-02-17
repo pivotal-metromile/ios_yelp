@@ -11,6 +11,6 @@ Pod::Spec.new do |spec|
   spec.source_files          = 'Yelp/YelpClient*.{h,m}'
   spec.frameworks            = 'Foundation'
 
-  spec.dependency 'AFNetworking'
-  spec.dependency 'BDBOAuth1Manager'
+  spec.dependency 'AFNetworking', '2.2.0'
+  spec.dependency 'BDBOAuth1Manager', '1.2.0'
 end
